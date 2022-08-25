@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #4267b2;
+  height: 100%;
+}
+.title {
+  /* margin-top: 10px; */
+  text-align: center;
+  padding: 10px 0;
+}
+.demo-page {
+  /* margin: 0 25%; */
+  margin: 0 10px 20px 20px;
+  background-color: #f1f5f7;
+  border-radius: 10px;
+}
+.post-cont {
+  margin: 0 25%;
+  padding: 10px;
+  background-color: rgb(244, 238, 238);
+  border-radius: 10px;
+}
+.post {
+  background-color: #4267b2;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.post-name{
+    color: wheat;
+}
+.time {
+  font-size: 10px;
+  font-weight: 100;
+  color:white;
+}
+.post-title{
+    margin: 5px 0;
+    color:white;
+}
+.img {
+  width: 100%;
+  height: 20%;
+  border-radius: 10px;
+}
+.like-comment {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.textarea {
+  padding: 5px 0 0 5px;
+  border-radius: 10px;
+}
+.btn {
+  padding: 5px;
+  background-color: rgb(240, 245, 245);
+  color: red;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.fas,
+.fab {
+  color: white;
+}
+#like,#like1,#like2,#like3{
+    color: white;
+}
