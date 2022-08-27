@@ -1,12 +1,14 @@
 function increaseLike() {
-    let like = document.getElementById('like').innerText;
-    let likeIncrease = + like;
+    const like = document.getElementById('like');
+    let likeIncrease = + like.innerText;
     likeIncrease++;
     document.getElementById('like').innerText = likeIncrease;
+    like.style.color = 'red';
+    document.getElementById('liked').style.color = 'green';
 }
 function commentPost() {
-    let comment = document.getElementById('comment-box').value;
-    let newComment = document.createElement('p');
+    const comment = document.getElementById('comment-box').value;
+    const newComment = document.createElement('p');
     newComment.innerText = comment;
     document.getElementById('post').appendChild(newComment);
     document.getElementById('comment-box').value = '';
@@ -15,14 +17,16 @@ function commentPost() {
 
 // /-/-/-/- 2nd post /-/-/-/-//-
 function increaseLike1() {
-    let like = document.getElementById('like1').innerText;
-    let likeIncrease = + like;
+    const like = document.getElementById('like1');
+    let likeIncrease = + like.innerText;
     likeIncrease++;
     document.getElementById('like1').innerText = likeIncrease;
+    like.style.color = 'red';
+    document.getElementById('liked1').style.color = 'green';
 }
 function commentPost1() {
-    let comment = document.getElementById('comment-box1').value;
-    let newComment = document.createElement('p');
+    const comment = document.getElementById('comment-box1').value;
+    const newComment = document.createElement('p');
     newComment.innerText = comment;
     document.getElementById('post1').appendChild(newComment);
     document.getElementById('comment-box1').value = '';
@@ -30,14 +34,16 @@ function commentPost1() {
 // / - /-/ - /- 3nd post / - /-/ - /-/ / -
 
 function increaseLike2() {
-    let like = document.getElementById('like2').innerText;
-    let likeIncrease = + like;
+    const like = document.getElementById('like2');
+    let likeIncrease = + like.innerText;
     likeIncrease++;
     document.getElementById('like2').innerText = likeIncrease;
+    like.style.color = 'red';
+    document.getElementById('liked2').style.color = 'green';
 }
 function commentPost2() {
-    let comment = document.getElementById('comment-box2').value;
-    let newComment = document.createElement('p');
+    const comment = document.getElementById('comment-box2').value;
+    const newComment = document.createElement('p');
     newComment.innerText = comment;
     document.getElementById('post2').appendChild(newComment);
     document.getElementById('comment-box2').value = '';
@@ -45,14 +51,16 @@ function commentPost2() {
 // / - /-/ - /- 3nd post / - /-/ - /-/ / -
 
 function increaseLike3() {
-    let like = document.getElementById('like3').innerText;
-    let likeIncrease = + like;
+    const like = document.getElementById('like3');
+    let likeIncrease = + like.innerText;
     likeIncrease++;
     document.getElementById('like3').innerText = likeIncrease;
+    like.style.color = 'red';
+    document.getElementById('liked3').style.color = 'green';
 }
 function commentPost3() {
-    let comment = document.getElementById('comment-box3').value;
-    let newComment = document.createElement('p');
+    const comment = document.getElementById('comment-box3').value;
+    const newComment = document.createElement('p');
     newComment.innerText = comment;
     document.getElementById('post3').appendChild(newComment);
     document.getElementById('comment-box3').value = '';
