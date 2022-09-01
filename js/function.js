@@ -44,8 +44,11 @@ function commentPost(n) {
     const comment = commentBoxes[n].value;
     const newComment = document.createElement('p');
     newComment.innerText = comment;
-    const post = 'post' + n;
-    document.getElementById(post).appendChild(newComment);
+    const posts = document.getElementsByClassName('post');
+    const post = posts[n];
+    post.appendChild(newComment);
+    // const post = 'post' + n;
+    // document.getElementById(post).appendChild(newComment);
     commentBoxes[n].value = '';
 }
 
